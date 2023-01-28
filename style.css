@@ -1,0 +1,52 @@
+form {
+  width: 62%;
+  margin: auto;
+}
+form > .all {
+  display: flex;
+
+  justify-content: space-between;
+}
+form > .not {
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 420px;
+
+  padding: 7px;
+}
+select {
+  width: 440px;
+  padding: 7px;
+}
+textarea {
+  width: 99.2%;
+  height: 150px;
+}
+div {
+  height: 50%;
+  margin-top: 10px;
+}
+input,
+select,
+textarea {
+  margin-top: 8px;
+  border-radius: 0;
+  border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.cinq > button {
+  display: flex;
+  margin-left: 86%;
+  margin-top: 5%;
+  padding: 13px 25px;
+  background-color: rgb(255, 26, 114);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+textarea,
+select,
+input:focus {
+  outline-color: rgb(57, 215, 112);
+}
